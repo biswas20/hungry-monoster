@@ -16,8 +16,8 @@ const displayMeal = meals => {
         mealsDiv.className = 'col-md-3';
         mealsDiv.innerHTML = `
             <div onclick="foodIngredient('${food.idMeal}')"; class="border bg-white text-center" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                <img class="img-fluid" src="${food.strMealThumb}" alt="" />
-                <h2 class="h4 p-2">${food.strMeal}</h2>
+                <img class="img-fluid foodImg" src="${food.strMealThumb}" alt="" />
+                <h2 class="h4 p-2 foodItem">${food.strMeal}</h2>
             </div>
         `;
         foodDiv.appendChild(mealsDiv);
