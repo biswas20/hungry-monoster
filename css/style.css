@@ -7,9 +7,10 @@ ul,
 li {
     list-style: none;
 }
-#body-part {
+body{
     background-color: antiquewhite;
 }
+
 .input-box input {
     /* margin-top: 100px; */
     background-color: #fff;
