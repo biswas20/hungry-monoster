@@ -40,7 +40,7 @@ const ingredientInfo = ingredient => {
     ingredient.forEach(element => {
         infoDiv.innerHTML = `
         <img class="img-fluid" src="${element.strMealThumb}" alt="" />
-        <h2 class="h4 p-2">${element.strMeal}</h2>
+        <h2 class="h4 p-2">${element.strIngredient1}</h2>
         `;
 
         console.log(element);
